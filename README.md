@@ -6,7 +6,6 @@ Question-One :
 
 ```
 a. Please provide a cronjob to Housekeeping log in /var/log/nginx/ if log more than 14 days 
-b. Please provide a logrotate script in /etc/logrotate.d/ to compress log in /var/log/nginx/ if more than 100MB
 ```
 Question-two :
 
@@ -15,7 +14,6 @@ Question-two :
 Our company has made in-house application to track all of employee performance. But the specs of the server itself put on the mininum specification, so we must pointing every users to access the server which has least connection. so we setup another VM to run HAProxy as our load balancer/reverse as a service and here IP address of server application and the link to access to the application.
 
 - appservern1 : 10.10.1.1
-- appservern2 : 10.10.1.2
 - url : https://lb-application.com
 
 ```
@@ -38,5 +36,4 @@ To prevent it we should recall all the spam email from every mailbox. But, befor
 
 ```
 a. Tell us step-by-step to prevent that spam attack appear again in our mailbox
-b. Please provide powershell script to recall the spam mail from every mailbox
 ```
